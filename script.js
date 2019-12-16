@@ -11,9 +11,10 @@ var isUpper;
 var possibleOptions = [];
 
 
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+var length = prompt('How Long Would You Like Your Password To Be (between 8-128 characters)');
 
 // Write password to the #password input
 function writePassword() {
