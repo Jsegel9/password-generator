@@ -1,3 +1,8 @@
+## Credits
+Special Thanks to the following for their contributions to this project.
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
+[MyKong](https://www.mkyong.com/javascript/check-if-variable-is-a-number-in-javascript/)
+
 ## License
 Copyright (c) [2019] [Joshua Patrick Segel]
 
