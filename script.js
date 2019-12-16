@@ -9,18 +9,23 @@ var isNum;
 var isLower;
 var isUpper;
 var possibleOptions = [];
-
+var length
 
 // document.getElementById("generate").addEventListener("click",buttonClick); 
 // generateBtn.addEventListener("click", buttonClick);
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
 generateBtn.addEventListener("click", buttonClick);
 // function buttonClick() {
 //     document.getElementById("generate")
 // }
+
 function buttonClick() {
-   var length = prompt('How Long Would You Like Your Password To Be (between 8-128 characters)');
+    isLower = confirm("Would you like to use lower case letters?");
+    isUpper = confirm("Would you like to use upper case letters?");
+    length = prompt('How Long Would You Like Your Password To Be (between 8-128 characters)');
     if (length < 8 || isNaN(length)) {
         alert ('Please Enter Number Between 8 and 128')
     }
