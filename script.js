@@ -60,7 +60,7 @@ function getPassword() {
         var rando = randomNumber();
         pword += possibleOptions[rando]
     }
-alert(pword)    
+document.getElementById("password").append(pword);
 }
 // Write password to the #password input
 // function writePassword() {
