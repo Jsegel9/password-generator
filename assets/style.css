@@ -8,8 +8,16 @@ body {
     margin-right: 33%;
     padding: 30px;
     text-align: center;
+    height: 100%;
 }
 .card-header {
     border-bottom:grey 1px solid;
     margin-bottom: 10px;
+    text-align: justify;
+}
+textarea {
+    width: 100%;
+    height: 50px    ;
+    border: grey 1px dashed;
+    text-align: center;
 }
