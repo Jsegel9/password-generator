@@ -8,6 +8,7 @@ var isSpecial;
 var isNum;
 var isLower;
 var isUpper;
+var possibleOptions = [];
 
 
 // Assignment Code
