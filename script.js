@@ -1,3 +1,5 @@
+
+var specialchar = ['!', '"', '#', '$', '%', '&', '"', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', '<', '>', '=', '?', '@', '[', ']', "\ ", '^', '_', '`', '{', '}', '|', '~'];
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
