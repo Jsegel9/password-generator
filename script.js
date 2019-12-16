@@ -11,10 +11,11 @@ var isUpper;
 var possibleOptions = [];
 
 
-document.getElementById("generate").addEventListener("click",buttonClick); 
+// document.getElementById("generate").addEventListener("click",buttonClick); 
+// generateBtn.addEventListener("click", buttonClick);
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+generateBtn.addEventListener("click", buttonClick);
 // function buttonClick() {
 //     document.getElementById("generate")
 // }
