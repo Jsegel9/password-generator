@@ -25,6 +25,8 @@ generateBtn.addEventListener("click", buttonClick);
 function buttonClick() {
     isLower = confirm("Would you like to use lower case letters?");
     isUpper = confirm("Would you like to use upper case letters?");
+    isNum = confirm("Would you like to use numbers?");
+    isSpecial = confirm("Would you like to use special characters?");
     length = prompt('How Long Would You Like Your Password To Be (between 8-128 characters)');
     if (length < 8 || isNaN(length)) {
         alert ('Please Enter Number Between 8 and 128')
