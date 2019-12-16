@@ -47,11 +47,20 @@ function optionBuilder() {
         if (isSpecial) {
             possibleOptions = possibleOptions.concat(specialChar);
         }
+       getPassword(); 
     }
    else {
        alert('Please confirm at least one option');
        buttonClick();
    } 
+}
+function getPassword() {
+    var pword = "";
+    for (var i = 0; i < length; i++) {
+        var rando = randomNumber();
+        pword += possibleOptions[rando]
+    }
+alert(pword)    
 }
 // Write password to the #password input
 // function writePassword() {
@@ -72,3 +81,6 @@ function optionBuilder() {
 // generateBtn.addEventListener("click", writePassword);
 
 // BONUS EVENT LISTENER
+function randomNumber() {
+    return Math.floor(Math.random() * possibleOptions.length)
+ };
