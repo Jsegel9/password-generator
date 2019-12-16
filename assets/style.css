@@ -1,0 +1,11 @@
+body {
+    background-color: azure ;
+}
+
+.wrapper {
+    background-color: white;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 30px;
+    text-align: center;
+}
