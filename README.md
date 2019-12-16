@@ -1,3 +1,12 @@
+## Description
+I have created this password generator to provide the user with a secure unique passowrd. After choosing the types of characters the user wants included in their password and the length the site will output a completely random password.
+
+## Installation
+To install this application all one needs to do is simply navigate to [Password Generator](https://jsegel9.github.io/password-generator/)
+
+## Usage
+Usage of the password generator is incredibly simple. Just click on the button marked "generate password". You will then be prompted to answer several yes or no questions regarding the type of characters you would like included as well as the length of the password. After responding properly you will be provided with a secure password.
+
 ## Credits
 Special Thanks to the following for their contributions to this project.
 [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
