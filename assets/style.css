@@ -9,3 +9,7 @@ body {
     padding: 30px;
     text-align: center;
 }
+.card-header {
+    border-bottom:grey 1px solid;
+    margin-bottom: 10px;
+}
