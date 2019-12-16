@@ -48,6 +48,10 @@ function optionBuilder() {
             possibleOptions = possibleOptions.concat(specialChar);
         }
     }
+   else {
+       alert('Please confirm at least one option');
+       buttonClick();
+   } 
 }
 // Write password to the #password input
 // function writePassword() {
